@@ -1,1 +1,16 @@
-{"isBaseRuleset":true,"constants":{"cityStrengthBase":7,"cityStrengthPerPop":0.5,"cityStrengthFromTechsMultiplier":8.3,"cityStrengthFromTechsExponent":1.4,"cityStrengthFromTechsFullMultiplier":1.15,"minimalCityDistance":2,"naturalWonderCountMultiplier":0.186,"naturalWonderCountAddedConstant":0.2,"maxLakeSize":7,"religionLimitMultiplier":1,"pantheonBase":150,"pantheonGrowth":0},"modUrl":"https://github.com/ravignir/Third-Age-Unciv","defaultBranch":"main","author":"ravignir","lastUpdated":"2024-01-30T22:06:35Z","modSize":1688}
+{
+    "isBaseRuleset":true,
+    "constants":{
+        "cityStrengthBase":7,
+        "cityStrengthPerPop":0.5,
+        "cityStrengthFromTechsMultiplier":8.3,
+        "cityStrengthFromTechsExponent":1.4,
+        "cityStrengthFromTechsFullMultiplier":1.15,
+        "minimalCityDistance":2,
+        "naturalWonderCountMultiplier":0.186,
+        "naturalWonderCountAddedConstant":0.2,
+        "maxLakeSize":7,
+        "religionLimitMultiplier":1,
+        "pantheonBase":50,
+        "pantheonGrowth":0}
+}
