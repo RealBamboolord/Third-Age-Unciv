@@ -1,0 +1,815 @@
+[
+{
+		"name": "Evil",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Evil]>","Free Social Policy"],
+		"policies": [
+			{
+				"name": "Vicious Training",
+				"uniques": ["[+25]% XP gained from combat","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Veteran Forces",
+				"uniques": ["[+25]% XP gained from combat","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"requires": ["Vicious Training"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Nefarious Elite",
+				"uniques": ["[+50]% XP gained from combat","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"requires": ["Veteran Forces"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Dark Forges",
+				"uniques": ["[+1 Production] [in all cities]","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Malevolent Workshops",
+				"uniques": ["[+2 Production] [in all cities]","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"requires": ["Dark Forges"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Sinister Industry",
+				"uniques": ["[+3 Production] [in all cities]","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"requires": ["Malevolent Workshops"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Oppression Tactics",
+				"uniques": ["[-10]% Unhappiness from [Population] [in all cities]","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Ruthless Authority",
+				"uniques": ["[-10]% Unhappiness from [Population] [in all cities]","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"requires": ["Oppression Tactics"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Tyrannical Dominion",
+				"uniques": ["[-10]% Unhappiness from [Population] [in all cities]","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"requires": ["Ruthless Authority"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Forbidden Lore",
+				"uniques": ["[+10]% [Science] [in annexed cities]","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Dark Knowledge",
+				"uniques": ["[+10]% [Science] [in annexed cities]","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"requires": ["Forbidden Lore"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "Sauron's Gift",
+				"uniques": ["[+10]% [Science] [in annexed cities]","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"requires": ["Dark Knowledge"],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "Evil Complete",
+				"uniques": ["Comment [Dark Lord]"]
+			}
+		]
+	},
+	{
+		"name": "Neutral",
+		"era": "Second Age",
+		"uniques": ["Comment [Available to any Civilization]","Free Social Policy"],
+		"policies": [
+			{
+				"name": "Healing",
+				"uniques": ["Comment [All units instantly heal 25 HP]","Comment [Cooldown: 25 turns]","[All] units gain the [Heal 25] promotion <upon constructing [Healing Power]> <before adopting [Improved Healing]> <before adopting [Restoration]>","May buy [Healing Power] buildings for [0] [Culture] [in all cities] <when below [1] [Healing Cooldown]>","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Improved Healing"
+				"requires": ["Healing"],
+				"uniques": ["Comment [All units instantly heal 50 HP]","Comment [Cooldown: 25 turns]","[All] units gain the [Heal 50] promotion <upon constructing [Healing Power]> <before adopting [Restoration]>","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Restoration",
+				"requires": ["Improved Healing"],
+				"uniques": ["Comment [All units instantly heal all HP]","Comment [Cooldown: 25 turns]","[All] units gain the [Heal All] promotion <upon constructing [Healing Power]>","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Rallying Call",
+				"uniques": ["Comment [All units gain 15% combat bonus for 3 turns]","Comment [Cooldown: 25 turns]","[+15]% Strength <when above [0] [Rallying Call Activate]> <before adopting [Improved Rallying Call]> <before adopting [Battle Cry]>", "May buy [Rallying Call Power] buildings for [0] [Culture] [in all cities] <when below [1] [Rallying Call Cooldown]>","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Improved Rallying Call",
+				"requires": ["Rallying Call"],
+				"uniques": ["Comment [All units gain 25% combat bonus for 3 turns]","Comment [Cooldown: 25 turns]","[+25]% Strength <for [3] turns> <when above [0] [Rallying Call Activate]> <before adopting [Battle Cry]>","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"row": 2,
+				"column": 3 
+			},
+			{
+				"name": "Battle Cry",
+				"requires": ["Improved Rallying Call"],
+				"uniques": ["Comment [All units gain 35% combat bonus for 3 turns]","Comment [Cooldown: 25 turns]","[+35]% Strength <when above [0] [Rallying Call Activate]>","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Battle Towers",
+				"uniques": ["Comment [Summons a Battle Tower improvement dealing 10 damage to neraby enemy units, it also provides 25% defensive bonus to stationing unit]","Comment [Cooldown: 30 turns]","May buy [Battle Tower Power] buildings for [0] [Culture] [in all cities] <when below [1] [Battle Tower Cooldown]> <before adopting [Improved Battle Towers]>","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Improved Battle Towers",
+				"requires": ["Battle Towers"],
+				"uniques": ["Comment [Summons an Improved Battle Tower improvement dealing 20 damage to neraby enemy units, it also provides 50% defensive bonus to stationing unit]","Comment [Cooldown: 30 turns]","May buy [Improved Battle Tower Power] buildings for [0] [Culture] [in all cities] <when below [1] [Battle Tower Cooldown]> <before adopting [War Towers]>","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "War Towers",
+				"requires": ["Improved Battle Towers"],
+				"uniques": ["Comment [Summons a War Tower improvement dealing 30 damage to neraby enemy units, it also provides 75% defensive bonus to stationing unit]","Comment [Cooldown: 30 turns]","May buy [War Tower Power] buildings for [0] [Culture] [in all cities] <when below [1] [Battle Tower Cooldown]>","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Summon Reinforcements",
+				"uniques": ["Comment [Summons an Infantry unit of Current Era]","Comment [Cooldown: 20 turns]","May buy [Summon Reinforcements Power] buildings for [0] [Culture] [in all cities] <when below [1] [Summon Reinforcements Cooldown]>","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Advanced Summon Reinforcements",
+				"requires": ["Summon Reinforcements"],
+				"uniques": ["Comment [Summons Infantry and Archery units of Current Era]","Comment [Cooldown: 20 turns]","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "Excellent Summon Reinforcements",
+				"requires": ["Advanced Summon Reinforcements"],
+				"uniques": ["Comment [Summons Infantry, Archery and Mounted units of Current Era]","Comment [Cooldown: 20 turns]","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "Neutral Complete",
+				"uniques": ["Comment [Lord]"]
+			}
+		]
+	},
+	{
+		"name": "Good",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Good]>","Free Social Policy"],
+		"policies": [
+			{
+				"name": "Stand As One",
+				"uniques": ["[+10]% Strength <when adjacent to a [Military] unit>","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "United We Stand",
+				"requires": ["Stand As One"],
+				"uniques": ["[+10]% Strength <when adjacent to a [Military] unit>","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Fellowship's Might",
+				"requires": ["United We Stand"],
+				"uniques": ["[+10]% Strength <when adjacent to a [Military] unit>","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Fertile Fields",
+				"uniques": ["[+1 Food] [in all cities]","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Grand Harvest",
+				"requires": ["Fertile Fields"],
+				"uniques": ["[+2 Food] [in all cities]","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Prosperous Growth",
+				"requires": ["Grand Harvest"],
+				"uniques": ["[+3 Food] [in all cities]","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Blissful Harmony",
+				"uniques": ["[+1 Happiness] [in all cities]","Instantly provides [1] [Tier 1 Power]"]
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Free People",
+				"requires": ["Blissful Harmony"],
+				"uniques": ["[+1 Happiness] [in all cities]","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"]
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Gift of the Valar",
+				"requires": ["Free People"],
+				"uniques": ["[+1 Happiness] [in all cities]","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"]
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Mercantilism",
+				"uniques": ["[+10]% [Gold] <while the empire is happy>","Instantly provides [1] [Tier 1 Power]"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Wealthy Treasury",
+				"requires": ["Mercantilism"],
+				"uniques": ["[+10]% [Gold] <while the empire is happy>","Instantly provides [1] [Tier 2 Power]","Only available <when above [3] [Tier 1 Power]>"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "Economic Pinnacle",
+				"requires": ["Wealthy Treasury"],
+				"uniques": ["[+10]% [Gold] <while the empire is happy>","Instantly provides [1] [Tier 3 Power]","Only available <when above [3] [Tier 2 Power]>"],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "Good Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+	{
+		"name": "Noldor Elves",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Noldor Elves]>",],
+		"policies": [
+			{
+				"name": "Far Sight",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Comment [All units Gain +1 Sight and can see over obstacles for 4 turns]","Comment [Cooldown: 20 turns]","All newly-trained [All] units [in all cities] receive the [Far Sight] promotion","[All] units gain the [Far Sight] promotion <upon constructing [Far Sight Power]>", "May buy [Far Sight Power] buildings for [0] [Culture] [in all cities] <when below [1] [Far Sight Cooldown]>"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Elrond's Foresight",
+				"uniques": ["Only available <when above [5] [Tier 3 Power]>","Comment [Reveal entire map for 2 turns]","Comment [Cooldown: 75 turns]","May buy [Elrond's Foresight Power] buildings for [0] [Culture] [in all cities] <when below [1] [Elrond's Foresight Cooldown]>"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Wisdom of the Eldar",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","All healing effects doubled", "New [All] units start with [15] Experience [in all cities]"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Blessing of Melian",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","Enemy [All] units must spend [1] extra movement points when inside your territory"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Cirdan's Craft",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","[+3 Production] [in all coastal cities]","[+2] Movement <for [Water] units>","[+2] Movement <for [Embarked] units>"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Noldor Elves Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+	{
+		"name": "Sindar Elves",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Sindar Elves]>",],
+		"policies": [
+			{
+				"name": "Elven Swiftness",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Comment [All units Gain +1 Movement for 5 turns]","Comment [Cooldown: 20 turns]","All newly-trained [All] units [in all cities] receive the [Swift] promotion","[All] units gain the [Swift] promotion <upon constructing [Elven Swiftness Power]>", "May buy [Elven Swiftness Power] buildings for [0] [Culture] [in all cities] <when below [1] [Elven Swiftness Cooldown]>"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Elven Cloaks",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Comment [Units are invisible in Jungles and Forests for 8 turns]","Comment [Cooldown: 20 turns]","All newly-trained [All] units [in all cities] receive the [Elven Cloak] promotion","[All] units gain the [Elven Cloak] promotion <upon constructing [Elven Cloaks Power]>","May buy [Elven Cloaks Power] buildings for [0] [Culture] [in all cities] <when below [1] [Elven Cloaks Cooldown]>"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Terrain Mastery",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","Comment [Units ignore terrain costs]","All newly-trained [All] units [in all cities] receive the [Native Terrain] promotion","[All] units gain the [Native Terrain] promotion"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Mirkwood Training",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","Comment [Archery Units gain additional attack for 4 turns]","Comment [Cooldown: 20 turns]","All newly-trained [Ranged] units [in all cities] receive the [Sharpshooter] promotion","[Ranged] units gain the [Sharpshooter] promotion <upon constructing [Mirkwood Training Power]>","May buy [Mirkwood Training Power] buildings for [0] [Culture] [in all cities] <when below [1] [Mirkwood Training Cooldown]>"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Rivercraft Artistry",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","[+1 Production] from every [River]"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Sindar Elves Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+	{
+		"name": "Gondor",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Gondor]>",],
+		"policies": [
+			{
+				"name": "Beacons of Gondor",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Militaristic City-States grant units [2] times as fast when you are at war with a common nation"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Numenorean Stonework",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","[+25]% City Strength from defensive buildings"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Captains of Gondor",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+2] Movement <for [Great General] units>","Great General provides double combat bonus"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "City Fortresses",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","[+50]% Strength for cities"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Golden Fields",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","[+1 Gold] from every [Farm]"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Gondor Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+	{
+		"name": "Rohan",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Rohan]>",],
+		"policies": [
+			{
+				"name": "Muster the Rohirrim",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","Comment [+50% Production towards Mounted units for 10 turns]","Comment [Cooldown: 20 turns]","[+50]% Production when constructing [Mounted] units [in all cities] <when above [0] [Muster the Rohirrim Activate]>","May buy [Muster the Rohirrim Power] buildings for [0] [Culture] [in all cities] <when below [1] [Muster the Rohirrim Cooldown]>"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Helm's Last Stand",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","[+25]% Strength <when fighting in [Friendly Land] tiles>"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Draft",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Comment [Summons an upgradeable Peasant unit in all cities]","Comment [Cooldown: 20 turns]","May buy [Draft Power] buildings for [0] [Culture] [in all cities] <when below [1] [Draft Cooldown]>"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Glorious Charge",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","Comment [Mounted units gain 50% Strength on their first attack after unlocking this]","All newly-trained [Mounted] units [in all cities] receive the [Stampede] promotion","[Mounted] units gain the [Stampede] promotion"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Horn of Helm",
+				"uniques": ["Only available <when above [5] [Tier 3 Power]>","Enemy [All] units must spend [4] extra movement points when inside your territory <when above [0] [Horn of Helm Activate]>","May buy [Horn of Helm Power] buildings for [0] [Culture] [in all cities] <when below [1] [Horn of Helm Cooldown]>"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Rohan Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+	{
+		"name": "Arnor",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Arnor]>",],
+		"policies": [
+			{
+				"name": "Palantir Vision",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Palantir","Comment [All units gain +2 Sight for 3 turns]","Comment [Cooldown: 20 turns]","All newly-trained [All] units [in all cities] receive the [Palantir] promotion","[All] units gain the [Palantir] promotion <upon constructing [Palantir Power]>", "May buy [Palantir Power] buildings for [0] [Culture] [in all cities] <when below [1] [Palantir Cooldown]>"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Bastion Builders",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+50]% Production when constructing [Defensive] buildings [in all cities]"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Numenorean Legacy",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","[+1 Science] from all [Science] buildings"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Elven Alliances",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","When declaring friendship, both parties gain a [+10]% boost to great person generation"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Always Watchful",
+				"uniques": ["Only available <when above [5] [Tier 3 Power]>","Gain a free [Watchtower] [in all cities]"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Arnor Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+	{
+		"name": "The Shire",
+		"era": "Second Age",
+		"uniques": ["Only available <for [The Shire]>",],
+		"policies": [
+			{
+				"name": "Harmony Trade",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+1 Happiness] from each Trade Route"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Farming Homesteads",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","[+1 Production] from every [Farm] <in [Grassland] tiles>"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Hobbit Agility",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","Comment [All units gain ability to withdraw before melee combat for 3 turns]","Comment [Cooldown: 20 turns]","All newly-trained [All] units [in all cities] receive the [Tactical Retreat] promotion","[All] units gain the [Tactical Retreat] promotion <upon constructing [Hobbit Agility Power]>", "May buy [Hobbit Agility Power] buildings for [0] [Culture] [in all cities] <when below [1] [Hobbit Agility Cooldown]>"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Unity of the Hobbits",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","[+100]% Production when constructing [Defensive] buildings [in all cities] <when at war>"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Golden Shire",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+25]% [Gold] [in all cities]"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "The Shire Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+	{
+		"name": "Dwarves",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Dwarves]>",],
+		"policies": [
+			{
+				"name": "Dwarven Riches",
+				"uniques":  ["Only available <when above [5] [Tier 2 Power]>","Comment [Double yield from every mine for 5 turns]","Comment [Cooldown: 25 turns]","[+100]% Yield from every [Mine] <when above [0] [Dwarven Riches Activate]>", "May buy [Dwarven Riches Power] buildings for [0] [Culture] [in all cities] <when below [1] [Dwarven Riches Cooldown]>"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Natural Sprinters",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Comment [All units receive double movement in open terrain for 3 turns]","Comment [Cooldown: 20 turns]","All newly-trained [All] units [in all cities] receive the [Sprinter] promotion","[All] units gain the [Sprinter] promotion <upon constructing [Natural Sprinters Power]>", "May buy [Natural Sprinters Power] buildings for [0] [Culture] [in all cities] <when below [1] [Natural Sprinters Cooldown]>"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Mountain strongholds",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","[+50]% Strength <when defending> <in [Mine] tiles>"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Dwarven Toughness",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","All newly-trained [All] units [in all cities] receive the [March] promotion","[All] units gain the [March] promotion"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Mountain Mastery",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Land units may cross [Mountain] tiles after the first [All] is earned"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Dwarves Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+	{
+		"name": "Angmar",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Angmar]>",],
+		"policies": [
+			{
+				"name": "Iron Marauders",
+				"uniques":  ["Only available <when above [5] [Tier 1 Power]>","No movement cost to pillage","Cities are razed [2] times as fast"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Morgul Curse",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","Comment [Summons a Barrow Wight unit]","Comment [Cooldown: 20 turns]","May buy [Summon Barrow Wight Power] buildings for [0] [Culture] [in all cities] <when below [1] [Summon Barrow Wight Cooldown]>"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Dreadful Gaze",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","All newly-trained [Great General] units [in all cities] receive the [Dread] promotion","[Great General] units gain the [Dread] promotion"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Dark Allegiance",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Gain a free [Courthouse] [in annexed cities]",
+            "Gain a free [Courthouse] [in puppeted cities]"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Frozen Plains",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+1 Production, +1 Food] from every [Snow]","[+1 Production] from every [Tundra]"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Angmar Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+	{
+		"name": "Mordor",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Mordor]>",],
+		"policies": [
+			{
+				"name": "Eye of Sauron",
+				"uniques":  ["Only available <when above [5] [Tier 1 Power]>","Comment [Summons an Eye of Sauron unit]","Comment [Cooldown: 20 turns]","May buy [Summon Eye of Sauron Power] buildings for [0] [Culture] [in all cities] <when below [1] [Summon Eye of Sauron Cooldown]>"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Call of Horde",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","Comment [+200% Production towards Land units for 3 turns]","Comment [Cooldown: 20 turns]","[+200]% Production when constructing [Land] units [in all cities] <when above [0] [Call of Horde Activate]>","May buy [Call of Horde Power] buildings for [0] [Culture] [in all cities] <when below [1] [Call of Horde Cooldown]>"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Dark Lord's Exploitation",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+50]% [Food] from City-States",
+            "[+50]% [Science] from City-States",
+            "[+50]% [Production] from City-States",
+            "[+50]% [Happiness] from City-States"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Dark Harvest",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+1 Food] from every [Tainted Land]"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Siege Mastery",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+1] Movement <for [Siege] units>"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Mordor Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+	{
+		"name": "Isengard",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Isengard]>",],
+		"policies": [
+			{
+				"name": "Meat is back on the menu",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Heals [15] damage if it kills a unit"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "To War",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+1] Movement <for [All] units> <in [Enemy Land] tiles>"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Crebains",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Comment [Summons a Crebains of Dunland unit]","Comment [Cooldown: 20 turns]","May buy [Summon Crebains of Dunland Power] buildings for [0] [Culture] [in all cities] <when below [1] [Summon Crebains of Dunland Cooldown]>"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Arms Race",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[-50]% Gold cost of upgrading"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "The Voice of Saruman",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+10]% [Science] [in all cities] <when at war>","Earn [50]% of killed [Military] unit's [Strength] as [Science]"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Isengard Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+		{
+		"name": "Goblins",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Goblins]>",],
+		"policies": [
+			{
+				"name": "Mighty Horde",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+15]% Strength <when adjacent to a [{Military} {Land}] unit>"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Scavenging",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Orc Tribes",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","Land units may cross [Mountain] tiles after the first [All] is earned"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Slave Labor",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+4 Production] [in annexed cities]"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "War Calling",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+15]% [Food] [in all cities] <when at war>"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Goblins Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+	{
+		"name": "Harad",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Harad]>",],
+		"policies": [
+			{
+				"name": "Unity of the Tribes",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","[-25]% City-State Influence degradation"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Exotic Goods",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[1] Happiness from each type of luxury resource"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Resourceful Desert",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+1 Production, +1 Food] from every [Desert] <in tiles without [Flood plains]> <in tiles without [Hill]>"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Trade Caravans",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","[+1 Gold] from each Trade Route"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Blessing of the Serpent",
+				"uniques": ["Only available <when above [5] [Tier 3 Power]>","Comment [All units exert -25% debuff on adjacent enemies for 2 turns]","Comment [Cooldown: 40 turns]","All newly-trained [All] units [in all cities] receive the [Serpent] promotion","[Military] units gain the [Serpent] promotion", "May buy [Blessing of the Serpent Power] buildings for [0] [Culture] [in all cities] <when below [1] [Blessing of the Serpent Cooldown]>"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Harad Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+	{
+		"name": "Rhun",
+		"era": "Second Age",
+		"uniques": ["Only available <for [Rhun]>",],
+		"policies": [
+			{
+				"name": "Scourge Riders",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>","No movement cost to pillage","Cities are razed [2] times as fast"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Lorgan's Legacy",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+1] Movement <for [All] units> <in [Enemy Land] tiles>"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Steppe Hunters",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","[+1] Movement <for [All] units> <in [Open terrain] tiles>","[+1] Sight <for [All] units> <in [Open terrain] tiles>"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Tribute to Eastern Lords",
+				"uniques": ["Only available <when above [5] [Tier 1 Power]>", "[+50]% [Food] from City-States",
+            "[+50]% [Science] from City-States",
+            "[+50]% [Production] from City-States",
+            "[+50]% [Happiness] from City-States"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Rhun Riches",
+				"uniques": ["Only available <when above [5] [Tier 2 Power]>","Retain [50]% of the happiness from a luxury after the last copy has been traded away"],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Rhun Complete",
+				"uniques": ["Comment [Servant of Valar]"]
+			}
+		]
+	},
+]

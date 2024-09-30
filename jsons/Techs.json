@@ -1,0 +1,505 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Second Age",
+		"techCost": 40,
+		"buildingCost": 40,
+		"techs": [
+			{
+				"name": "Agriculture",
+				"row": 6,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"uniques": ["Starting tech"]
+			}
+		]	
+	},
+	{
+		"columnNumber": 1,
+		"era": "Second Age",
+		"techCost": 45, 
+		"buildingCost": 75,
+		"techs": [
+		{
+				"name": "Fishing",
+				"row": 1,
+				"prerequisites": ["Agriculture"],
+				"quote": "'Now we wish... To catch﻿ a fish...So juicy sweet!' - Gollum"
+			},
+			{
+				"name": "Mysticism",
+				"row": 3,
+				"prerequisites": ["Agriculture"],
+				"quote": "'All we have to decide is what to do with the time that is given us.' - Gandalf"
+			},
+			{
+				"name": "Pottery",
+				"row": 5,
+				"prerequisites": ["Agriculture"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Animal Husbandry",
+				"row": 7,
+				"prerequisites": ["Agriculture"],
+				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
+			},
+			{
+				"name": "Carpentry",
+				"row": 9,
+				"prerequisites": ["Agriculture"],
+				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
+			},
+			{
+				"name": "Stone Working",
+				"row": 11,
+				"prerequisites": ["Agriculture"],
+				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
+			},
+			
+		]	
+	},
+	{
+		"columnNumber": 2,
+		"era": "Second Age",
+		"techCost": 75, 
+		"buildingCost": 90,
+		"wonderCost": 200,
+		"techs": [
+			{
+				"name": "Sailing",
+				"row": 1,
+				"prerequisites": ["Fishing","Carpentry"],
+				"uniques": ["Enables embarkation for land units"],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+			{
+				"name": "Astrology",
+				"row": 2,
+				"prerequisites": ["Mysticism"],
+				"uniques": ["[+1 Culture, +1 Science] [in all cities]"],
+				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+			},
+			{
+				"name": "Storytelling",
+				"row": 4,
+				"prerequisites": ["Mysticism","Pottery"],
+				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+			},
+			{
+				"name": "Trading",
+				"row": 8,
+				"prerequisites": ["Animal Husbandry","Carpentry"],
+				"uniques": ["[+1 Gold][in all cities]"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			},
+			{
+				"name": "Archery",
+				"row": 9,
+				"prerequisites": ["Carpentry"],
+				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+			},
+			{
+				"name": "Mining",
+				"row": 11,
+				"prerequisites": ["Carpentry","Stone Working"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			}
+						
+		]	
+	},
+	{
+		"columnNumber": 3,
+		"era": "Second Age",
+		"techCost": 125, 
+		"buildingCost": 110,
+		"wonderCost": 250,
+		"techs": [
+		{
+				"name": "Calendar",
+				"row": 3,
+				"prerequisites": ["Storytelling","Astrology"],
+				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+			},
+			{
+				"name": "Writing",
+				"row": 5,
+				"prerequisites": ["Storytelling"],
+				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+			},
+			{
+				"name": "Trapping",
+				"row": 7,
+				"prerequisites": ["Animal Husbandry"],
+				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+			},
+			{
+				"name": "The Wheel",
+				"row": 8,
+				"prerequisites": ["Trading", "Archery"],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+			},
+			{
+				"name": "Masonry",
+				"row": 11,
+				"prerequisites": ["Mining"],
+				"quote": "'How happy are those whose walls already rise!' - Virgil"
+			},
+			{
+				"name": "Bronze Working",
+				"row": 12,
+				"prerequisites": ["Mining"],
+				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+			}
+		]	
+	},
+	{
+		"columnNumber": 4,
+		"era": "Beginning of Third Age",
+		"techCost": 190, 
+		"buildingCost": 125,
+		"wonderCost": 300,
+		"techs": [
+		{
+				"name": "Shipbuilding",
+				"row": 1,
+				"prerequisites": ["Sailing","Astrology"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+			{
+				"name": "Enchanting",
+				"row": 3,
+				"prerequisites": ["Calendar"],
+				"uniques": ["[+10]% Strength <vs [Evil] units> <for [Good]>","[+10]% Strength <vs [Good] units> <for [Evil]>"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+			{
+				"name": "Cartography",
+				"row": 4,
+				"prerequisites": ["Writing","Calendar"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+			{
+				"name": "Codex",
+				"row": 5,
+				"prerequisites": ["Writing","Calendar"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+			
+			{
+				"name": "Mathematics",
+				"row": 9,
+				"prerequisites": ["The Wheel","Writing"],
+				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+			},
+			{
+				"name": "Construction",
+				"row": 11,
+				"prerequisites": ["Masonry","The Wheel"],
+				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+			},
+		]	
+	},
+	{
+		"columnNumber": 5,
+		"era": "Beginning of Third Age",
+		"techCost": 310,
+		"buildingCost": 150,
+		"wonderCost": 350,
+		"techs": [
+		{
+				"name": "Optics",
+				"cost": 280,
+				"row": 1,
+				"prerequisites": ["Shipbuilding","Enchanting"],
+				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+			},
+		{
+				"name": "Philosophy",
+				"row": 4,
+				"prerequisites": ["Enchanting","Cartography"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+			{
+				"name": "Poetry",
+				"row": 5,
+				"prerequisites": ["Codex","Cartography"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+			{
+				"name": "Irrigation",
+				"row": 6,
+				"prerequisites": ["Codex","The Wheel"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+			
+			{
+				"name": "Stirrup",
+				"row": 7,
+				"prerequisites": ["Trapping","The Wheel"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+			},
+			{
+				"name": "Ballistics",
+				"row": 10,
+				"prerequisites": ["Mathematics","Construction"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+			},
+			{
+				"name": "Tactics",
+				"row": 12,
+				"prerequisites": ["Construction","Bronze Working"],
+				"uniques": ["[+50]% XP gained from combat <for [Military] units>","[+100]% to Flank Attack bonuses"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+			},
+			{
+				"name": "Iron Working",
+				"row": 13,
+				"prerequisites": ["Bronze Working","Construction"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+			},
+			
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Fall of Numenorean Kingdoms",
+		"techCost": 530, 
+		"buildingCost": 180,
+		"wonderCost": 450,
+		"techs": [
+		
+			{
+				"name": "Sorcery",
+				"row": 2,
+				"prerequisites": ["Enchanting","Philosophy"],
+				"uniques": ["[+1 Gold, +1 Production, +3 Science] [in all cities","Free Social Policy"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+			{
+				"name": "Medicine",
+				"row": 6,
+				"prerequisites": ["Irrigation"],
+				"uniques": ["[+2 Food] [in all cities]","[5] HP when healing"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+			{
+				"name": "Apprenticeship",
+				"row": 8,
+				"prerequisites": ["Stirrup","Mathematics"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+			{
+				"name": "Currency",
+				"row": 9,
+				"prerequisites": ["Mathematics"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+			},
+			{
+				"name": "Siege Tactics",
+				"row": 10,
+				"prerequisites": ["Ballistics","Tactics"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+			},
+			{
+				"name": "Engineering",
+				"row":11,
+				"prerequisites": ["Ballistics","Tactics"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+			},
+			
+		]	
+	},
+	{
+		"columnNumber": 7,
+		"era": "Fall of Numenorean Kingdoms",
+		"techCost": 830, 
+		"buildingCost": 220,
+		"wonderCost": 550,
+		"techs": [
+		{
+				"name": "Compass",
+				"row": 1,
+				"prerequisites": ["Sorcery","Optics"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+		
+		{
+				"name": "Theology",
+				"row": 4,
+				"prerequisites": ["Philosophy","Sorcery","Poetry"],
+				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
+			},
+			{
+				"name": "Civil Service",
+				"row": 7,
+				"prerequisites": ["Apprenticeship","Stirrup","Medicine"],
+				"uniques": ["Enables Open Borders agreements"],
+				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+			},
+			{
+				"name": "Guilds",
+				"row": 8,
+				"prerequisites": ["Currency","Apprenticeship"],
+				"uniques": ["Enables conversion of city production to [Gold]"],
+				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
+			},
+			{
+				"name": "Metal Casting",
+				"row": 12,
+				"prerequisites": ["Engineering","Iron Working"],
+				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+			}
+		]	
+	},
+	{
+		"columnNumber": 8,
+		"era": "War of the Ring",
+		"techCost": 1200, 
+		"buildingCost": 280,
+		"wonderCost": 650,
+		"techs": [
+		{
+				"name": "Education",
+				"row": 4,
+				"prerequisites": ["Theology","Civil Service"],
+				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements"],
+				"quote": "'Education is the best provision for old age.' - Aristotle"
+			},
+			{
+				"name": "Printing",
+				"row": 6,
+				"prerequisites": ["Civil Service","Poetry"],
+				"uniques": ["Enables conversion of city production to [Faith]","[+25]% [Faith] [in all cities]","[+33]% Natural religion spread [in your cities]"],
+				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
+			},
+			{
+				"name": "Physics",
+				"row": 10,
+				"prerequisites": ["Guilds","Siege Tactics"],
+				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+			},
+			{
+				"name": "Military Engineering",
+				"row": 11,
+				"prerequisites": ["Engineering","Siege Tactics"],
+				"uniques": ["[+100]% Production when constructing [Barracks] buildings [in all cities]","[+25]% Production when constructing [Military] units [in all cities]"],
+				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+			},
+			{
+				"name": "Steel",
+				"row": 12,
+				"prerequisites": ["Metal Casting"],
+				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
+			},
+			
+
+		]	
+	},
+	{
+		"columnNumber": 9,
+		"era": "War of the Ring",
+		"techCost": 1450, 
+		"buildingCost": 300,
+		"wonderCost": 775,
+		"techs": [
+		{
+				"name": "Astronomy",
+				"row": 1,
+				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
+				"prerequisites": ["Compass","Education"],
+				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
+			},
+			{
+				"name": "Acoustics",
+				"row": 3,
+				"prerequisites": ["Education"],
+				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
+			},
+			{
+				"name": "Banking",
+				"row": 8,
+				"prerequisites": ["Civil Service","Guilds","Printing"],
+				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
+			},
+			{
+				"name": "Chivalry",
+				"row": 7,
+				"prerequisites": ["Civil Service","Guilds","Military Engineering"],
+				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+			},
+			{
+				"name": "Machinery",
+				"row": 9,
+				"prerequisites": ["Physics","Military Engineering"],
+				"uniques": ["Improves movement speed on roads"],
+				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
+			},	
+			
+			{
+				"name": "Metallurgy",
+				"row": 11,
+				"prerequisites": ["Physics","Steel"],
+				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
+			},
+			
+
+		]	
+	},
+		{
+		"columnNumber": 10,
+		"era": "Fourth Age",
+		"techCost": 1800, 
+		"buildingCost": 350,
+		"wonderCost": 850,
+		"techs": [	
+			{
+				"name": "Navigation",
+				"row": 1,
+				"prerequisites": ["Astronomy"],
+				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
+			},
+			{
+				"name": "Architecture",
+				"row": 4,
+				"prerequisites": ["Acoustics","Chivalry"],
+				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
+			},
+			{
+				"name": "Economics",
+				"row": 6,
+				"prerequisites": ["Banking","Education"],
+				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
+			},
+						{
+				"name": "Alchemy",
+				"row": 10,
+				"prerequisites": ["Machinery","Metallurgy"],
+				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
+			}
+			{
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": ["Chemistry","Economics","Architecture","Navigation"],
+				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			],
+			},
+			{
+		"columnNumber": 11,
+		"era": "Fourth Age",
+		"techCost": 3500, 
+		"buildingCost": 300,
+		"wonderCost": 750,
+		"techs": [	
+			{
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": ["Alchemy","Economics","Architecture","Navigation"],
+				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+			],
+			},
+					
+]

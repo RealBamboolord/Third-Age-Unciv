@@ -1,0 +1,97 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
+	{
+        "name": "Scout",
+        "movementType": "Land",
+		"uniques": ["Infantry"]
+    },
+    {
+        "name": "Special Scout",
+        "movementType": "Land"
+    },
+    {
+        "name": "Mounted",
+        "movementType": "Land",
+		"uniques": ["[-65]% Strength <vs [Pike] units> <when attacking>","[+15]% Strength <vs [Infantry] units> <when attacking>"]
+    },
+    {
+        "name": "Mage",
+        "movementType": "Land",
+		//"uniques": [""]
+    },
+    {
+        "name": "Wizard",
+        "movementType": "Land",
+		//"uniques": [""]
+    },
+	{
+        "name": "Sword",
+        "movementType": "Land",
+		"uniques": ["Infantry"]
+    },
+	{
+        "name": "Special",
+        "movementType": "Land",
+	},
+	{
+        "name": "Pike",
+        "movementType": "Land",
+		"uniques": ["Infantry","[+50]% Strength <vs [Mounted] units> <when attacking>"]
+	},
+	{
+        "name": "Siege",
+        "movementType": "Land"
+	},
+    {
+        "name": "Civilian Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Melee Water",
+        "movementType": "Water",
+        "uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"]
+    },
+    {
+        "name": "Ranged Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Spotter",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]
+    },
+    {
+        "name": "Bombardment",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Spell",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+    },
+    {
+        "name": "Archery",
+        "movementType": "Land",
+		"uniques": ["Infantry","[+15]% Strength <vs [Pike] units> <when attacking>"]
+    },
+    {
+        "name": "Explosive",
+        "movementType": "Land",
+		"uniques": ["Siege"]
+    },
+    {
+        "name": "Flying",
+        "movementType": "Land",
+        "uniques": [
+            "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast",
+            //"Defense bonus when embarked","May attack when embarked",
+            //"[1] Movement point cost to disembark","[2] Movement point cost to embark",
+            "No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","May travel on Water tiles without embarking",
+            "[+100]% maintenance costs",
+        ]
+    },
+]

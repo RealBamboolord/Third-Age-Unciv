@@ -1,0 +1,50 @@
+
+[
+    ///////////////////////////////////////// Myths /////////////////////////////////////////
+    {
+        "name": "Ancestor Worship",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Shrine]"]
+    },
+    ///////////////////////////////////////// Folklores /////////////////////////////////////////
+    {
+        "name": "Asceticism",
+        "type": "Follower",
+        "uniques": ["[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"]
+    },
+        
+    ///////////////////////////////////////// Heroic Tales //////////////////////////////////////////
+
+    {
+        "name": "The Grey Wizard",
+        "type": "Founder",
+        "uniques": ["Only available <for [Good]>","Free [Gandalf, the Grey] appears"]
+    },
+    {
+        "name": "The Blue Wizards",
+        "type": "Founder",
+        "uniques": ["Only available <for [Harad]>","Free [Alatar] appears"]
+    },
+    {
+        "name": "The White Wizard",
+        "type": "Founder",
+        "uniques": ["Only available <for [Isengard]>","Free [Saruman] appears"]
+    },
+    {
+        "name": "The Return of the King",
+        "type": "Founder",
+        "uniques": ["Only available <for [Gondor or Arnor]>","Free [Aragorn] appears"]
+    },
+    {
+        "name": "The Penguin said it's based on Mongolia",
+        "type": "Founder",
+        "uniques": ["Only available <for [Rhun]>","Free [Genghis Khan] appears"]
+    },
+    ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
+  
+    {
+        "name": "Crusade",
+        "type": "Founder",
+        "uniques": ["Gain [0]-[50] [Faith] <upon declaring war with a major Civilization>","Gain [20]-[100] [Culture] <upon declaring war with a major Civilization>"]
+    },
+]
